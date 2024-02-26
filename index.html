@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio - Padmasri</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <!-- navbar -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <!-- Add class of bg-light to nav element -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Padmasri Srinivas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+    </nav>    
+    <!-- main banner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage" id="home">
+        <div class="row">
+            <div class="hero_text">
+                <h2 class="hero_title">Hello! I'm Padmasri</h2>
+                <p class="hero_desc">I'm an aspiring data scientist living in India</p>
+            </div>
+        </div>
+    </section>    
+    <!-- about section -->
+    <section class="container-fluid section bgimage" id="about">
+        <br>
+        <br>
+        <h1 class="text-center">About Me</h1>        
+        <div class="row mt-4">
+            <div class="col-lg-6">
+                <img src="IMG20230630094609.jpg" class="image_about" alt="">
+            </div>
+            <div class="col-lg-6" class="image_desc">
+                <p>
+                    I would describe myself as a hardworking individual 
+                    with a keen interest in data science, data analytics and machine learning.
+                    <br>
+                    I aspire to be a prompt engineer. 
+                    <br> I'm a fluent english speaker and an avid reader. 
+                    <br> You can rely on me to complete quality work and exceed expectations. 
+                    <br><h5>Hobbies:  </h5>       
+                </p>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Traveling</li>
+                            <li>Reading novels and self help books</li>
+                            <li>Listening to music</li>
+                            <li>Stargazing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <p>I completed my schooling from the CBSE board in Mumbai, India with Distinction. <br>
+                    Owing to my academic merit, I secured admission to the prestigious SASTRA University in Tanjore,
+                    India,<br> in Computer Science and Engineering (Specialisation: Internet of Things and Automation). 
+                    <br>Machine Learning piqued my interest as part of my undergrad curriculum.<br>
+                    I regularly read blogs on the advances in Data Science and AI.<br><br>
+                    It is my dream to pursue a career in Data Science to effectively analyse and manage real-world data, 
+                    <br>and contribute to the Data Science and AI community.<br><br>
+                    <i class="fa fa-envelope"></i>&nbsp; officialpsri@gmail.com
+                </p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- services section-->
+    <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
+    <section class="section bgimage" id="services">
+        <br>
+        <br>
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fas servicesIcon fa-code"></i>
+                        <h4 class="card-title">Python, R</h4>
+                        <p class="card-text">
+                        Python: Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, TensorFlow, Keras<br>
+                        R: Markdown, dplry, ggplot2, tidyr.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-database'></i>
+                        <h4 class="card-title">MySQL Workbench</h4>
+                        <p class="card-text">
+                        Skilled in querying and retrieving data from relational databases for analysis and exploration.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class="fa servicesIcon fa-chart-pie"></i>
+                        <h4 class="card-title">Power BI, Tableau</h4>
+                        <p class="card-text">
+                        Adept at creating interactive and informative data visualizations to communicate insights effectively.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-chart-line'></i>
+                        <h4 class="card-title">Data Analytics</h4>
+                        <p class="card-text">
+                        Possess strong analytical skills to clean, explore, and interpret data to draw meaningful conclusions.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-laptop-code'></i>
+                        <h4 class="card-title">Machine Learning</h4>
+                        <p class="card-text">
+                            Experienced in building and deploying machine learning models for various tasks 
+                            such as classification, regression, and forecasting.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-4 mt-4">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-filter'></i>
+                        <h4 class="card-title">Excel</h4>
+                        <p class="card-text">
+                        Text to Columns,&nbsp; VLOOKUP, &nbsp;ARIMA, Outlier analysis, Data Cleaning, Sort, Filter.
+                        </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section-->
+    <section class="section bgimage" id="portfolio">
+        <br>
+        <br>
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Data Analyst Intern</h4>
+                            <p class="card-text">Cleaned, analyzed business data, performed time series analysis using the Power
+                                BI tool, Excel, XLWings and MySQL workbench. Created dashboards of financial stocks, invoice data & customer feedback. 
+                                Created automated reports and flows with Power Automate.
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Early disease detection in Tomato leaves using Deep Learning and IoT</h4>
+                            <p class="card-text">Trained a CNN model to detect four categories of tomato leaf diseases 
+                                and deployed it on a Raspberry Pi as a tflite model for prediction. Enables disease prevention.
+                                Involved image processing, data manipulation, and hands-on machine learning.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Psri-01/ML-IoT" class="btn btn-success">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Text Summarization using AI</h4>
+                            <p class="card-text">Used for speech recognition tasks. Configured the PaLM 2 client using MakerSuite's
+                                API key. Fed an audio sample from a podcast regarding climate change to the model
+                                to transcribe it into text. This can also be used to create subtitles for podcasts, videos
+                                or extract information from audio files.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Brain Tumor Detection</h4>
+                            <p class="card-text">Used transfer learning to detect brain tumors in MRI images. 
+                            &nbsp; Achieved an average Dice score of 0.85 on the validation set.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Packet Sniffer (using Scapy, Python)</h4>
+                            <p class="card-text">A packet sniffer tool was implemented on a Docker image of Alpine Linux
+                                to classify the network traffic based on protocol, size, direction, and date-time.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/Psri-01/DockerSniffer" class="btn btn-success">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Typhoid vaccination form</h4>
+                            <p class="card-text">Created a responsive form with HTML, Bootstrap 5 and basic jQuery.</p>
+                            <div class="text-center">
+                                <a href="" class="btn btn-success">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>    
+    <!-- contact section-->
+    <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
+    <section class="section bgimage" id="contact">
+        <br>
+        <br>
+        <h1 class="text-center">Contact Me</h1>
+        <!-- div class="row mt-4">
+            <div class="col-lg-6">
+                !-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html
+                div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                    <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                        <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=sydney+NSW&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                        </iframe>
+                    </div>
+                    <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                    <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                    </style>
+                </div>
+            </div> -->
+            <div class="d-flex justify-content-center">
+                <!-- form fields -->
+                <form id="form">
+                    <div class="form-group">
+                      <input type="text" class="form-control-lg" style="width: 400px;" placeholder="Name">
+                    </div>
+                    <div class="form-group d-flex flex-column">
+                      <input type="email" class="form-control-lg" style="width: 400px;" placeholder="Email">
+                    </div>
+                    <div class="mb-3 mt-3">
+                      <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Details"></textarea>
+                    </div>
+                    <center>
+                    <button type="button" class="btn btn-success mt-3" style="width: fit-content;">Contact Me</button>
+                </center>
+                  </form>
+                  
+            </div>       
+    </section>    
+    <!-- footer section-->
+    <footer class="container-fluid footer" id="footer">
+        <!-- social media icons -->
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/padmasris/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Psri-01" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://medium.com/@officialpsri" target="_blank"><img src="image_processing20220801-17461-esr15v.png" class="medium"/></a>
+        </div>
+    </footer>
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+</body>
+</html>

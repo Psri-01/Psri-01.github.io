@@ -15,7 +15,6 @@
         margin: 2rem;
         padding-top: 2rem;
     }
-
     .hero_title,
     .hero_desc {
         font-size: 2.5rem;
@@ -89,7 +88,7 @@
       max-width: 50%;
     }
   }
-  @media (max-width: 576px) {
+@media (max-width: 578px) {
     .col-lg-4 {
       flex: 0 0 100%;
       max-width: 100%;
@@ -147,6 +146,16 @@
     text-align: center;
     width: 100%;
 }
+.card-body {
+    width: 100% !important;
+    height: 50% !important;
+}
+@media (max-width: 578px) {
+    .card-body {
+      flex: 0 0 50%;
+      max-width: 100%;
+    }
+  }
 .card-title {
     text-align: center;
 }
@@ -159,11 +168,19 @@
     margin: 0px;
     padding: 0;
 }
-/* .form {
-    align-items:center;
-    width: 100px;
-    display: block;
-} */
+@media (max-width: 768px) {
+    .contact {
+      /* Style for smaller screens */
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+@media (max-width: 578px) {
+    .contact {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
 .form-group {
     margin-bottom: 1rem; /* Add some margin between fields */
   } 
@@ -173,3 +190,9 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: 578px) {
+    .footer {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }

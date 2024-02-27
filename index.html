@@ -13,11 +13,11 @@
   <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <!-- navbar -->
-    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
-    <!-- Add class of bg-light to nav element -->
-    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
-        <div class="container">
+<!-- navbar -->
+<!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+<!-- Add class of bg-light to nav element -->
+  <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+      <div class="container">
             <a class="navbar-brand" href="#">Padmasri Srinivas</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -46,56 +46,41 @@
     <!-- main banner -->
     <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
     <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
-    <section class="container-fluid section bgimage" id="home">
+    <section class="container-fill section bgimage" id="home">
         <div class="row">
             <div class="hero_text">
                 <h2 class="hero_title">Hello! I'm Padmasri</h2>
-                <p class="hero_desc">I'm an aspiring data scientist living in India</p>
+                <p class="hero_desc">I'm a data science enthusiast living in India</p>
             </div>
         </div>
     </section>    
     <!-- about section -->
-    <section class="container-fluid section bgimage" id="about">
+    <section class="container-fill section bgimage" id="about">
         <br>
         <br>
-        <h1 class="text-center">About Me</h1>        
-        <div class="row mt-4">
-            <div class="col-lg-6">
-                <img src="IMG20230630094609.jpg" class="image_about" alt="">
-            </div>
-            <div class="col-lg-6" class="image_desc">
-                <p>
-                    I would describe myself as a hardworking individual 
+        <h1 class="text-center">About Me</h1> <br><br><center>      
+        <div class="row-mt-4">
+            <div class="col-sm-12 col-md-6">
+                <div class="d-flex justify-content-center align-items-center">
+                <img src="IMG20230630094609.jpg" class="img-fluid image_about" alt="">
+                I would describe myself as a hardworking individual 
                     with a keen interest in data science, data analytics and machine learning.
-                    <br>
                     I aspire to be a prompt engineer. 
-                    <br> I'm a fluent english speaker and an avid reader. 
-                    <br> You can rely on me to complete quality work and exceed expectations. 
-                    <br><h5>Hobbies:  </h5>       
-                </p>
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <ul>
-                            <li>Traveling</li>
-                            <li>Reading novels and self help books</li>
-                            <li>Listening to music</li>
-                            <li>Stargazing</li>
-                        </ul>
+                    <br> I'm a fluent English speaker and an avid reader. 
+                    You can rely on me to complete quality work within the given timelines.
+            </div>
+        <div class="col-sm-12 col-md-12">         
+                            <p>I completed my schooling from the CBSE board in Mumbai, India with Distinction. I completed my undergrad from SASTRA University in Tanjore,
+                            India, in Computer Science and Engineering (Specialisation: Internet of Things and Automation) with a CGPA of 7.3032.
+                            <br>Machine Learning piqued my interest as part of my undergrad curriculum.<br>
+                            It is my dream to pursue a career in Data Science to effectively analyse and manage real-world data, 
+                            <br>and contribute to the Data Science and AI community.<br><br>
+                            <i class="fa fa-envelope"></i>&nbsp; officialpsri@gmail.com
+                        </p>
                     </div>
                 </div>
-                <div class="row mt-3">
-                    <p>I completed my schooling from the CBSE board in Mumbai, India with Distinction. <br>
-                    Owing to my academic merit, I secured admission to the prestigious SASTRA University in Tanjore,
-                    India,<br> in Computer Science and Engineering (Specialisation: Internet of Things and Automation). 
-                    <br>Machine Learning piqued my interest as part of my undergrad curriculum.<br>
-                    I regularly read blogs on the advances in Data Science and AI.<br><br>
-                    It is my dream to pursue a career in Data Science to effectively analyse and manage real-world data, 
-                    <br>and contribute to the Data Science and AI community.<br><br>
-                    <i class="fa fa-envelope"></i>&nbsp; officialpsri@gmail.com
-                </p>
-                </div>
             </div>
-        </div>
+        </center> 
     </section>    
     <!-- services section-->
     <!-- https://getbootstrap.com/docs/5.2/components/card/#about -->
@@ -104,81 +89,81 @@
         <br>
         <h1 class="text-center">Skills</h1>
         <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class="fas servicesIcon fa-code"></i>
-                        <h4 class="card-title">Python, R</h4>
-                        <p class="card-text">
-                        Python: Pandas, NumPy, Matplotlib, Seaborn, scikit-learn, TensorFlow, Keras<br>
-                        R: Markdown, dplry, ggplot2, tidyr.
-                        </p>
-                    </div>
-                </div>  
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fas servicesIcon fa-code"></i>
+                <h5 class="card-title">Python, R</h5>
+                <p class="card-text">
+                  Python: Pandas, NumPy, scikit-learn, TensorFlow, Keras<br>
+                  R: Markdown, dplry, ggplot2, tidyr.
+                </p>
+              </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-database'></i>
-                        <h4 class="card-title">MySQL Workbench</h4>
-                        <p class="card-text">
-                        Skilled in querying and retrieving data from relational databases for analysis and exploration.
-                        </p>
-                    </div>
-                </div>  
+          </div>
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class='fas servicesIcon fa-database'></i>
+                <h5 class="card-title">MySQL Workbench</h5>
+                <p class="card-text">
+                  Skilled in querying and retrieving data from relational databases for analysis and exploration.
+                </p>
+              </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class="fa servicesIcon fa-chart-pie"></i>
-                        <h4 class="card-title">Power BI, Tableau</h4>
-                        <p class="card-text">
-                        Adept at creating interactive and informative data visualizations to communicate insights effectively.
-                        </p>
-                    </div>
-                </div>  
-            </div>
+          </div>
         </div>
         <div class="row">
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-chart-line'></i>
-                        <h4 class="card-title">Data Analytics</h4>
-                        <p class="card-text">
-                        Possess strong analytical skills to clean, explore, and interpret data to draw meaningful conclusions.
-                        </p>
-                    </div>
-                </div>  
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class="fa servicesIcon fa-chart-pie"></i>
+                <h5 class="card-title">Power BI, Tableau</h5>
+                <p class="card-text">
+                  Adept at creating interactive and informative data visualizations to communicate insights effectively.
+                </p>
+              </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-laptop-code'></i>
-                        <h4 class="card-title">Machine Learning</h4>
-                        <p class="card-text">
-                            Experienced in building and deploying machine learning models for various tasks 
-                            such as classification, regression, and forecasting.
-                        </p>
-                    </div>
-                </div>  
+          </div>
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class='fas servicesIcon fa-chart-line'></i>
+                <h5 class="card-title">Data Analytics</h5>
+                <p class="card-text">
+                  Possess strong analytical skills to clean, explore, and interpret data to draw meaningful conclusions.
+                </p>
+              </div>
             </div>
-            <div class="col-lg-4 mt-4">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-filter'></i>
-                        <h4 class="card-title">Excel</h4>
-                        <p class="card-text">
-                        Text to Columns,&nbsp; VLOOKUP, &nbsp;ARIMA, Outlier analysis, Data Cleaning, Sort, Filter.
-                        </p>
-                    </div>
-                </div>  
+          </div>
+          </div>
+          <div class="row">
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class='fas servicesIcon fa-laptop-code'></i>
+                <h5 class="card-title">Machine Learning</h5>
+                <p class="card-text">
+                Basic machine learning models for classification, regression.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-sm-6 col-md-4 mt-4">
+            <div class="card servicesText">
+              <div class="card-body">
+                <i class='fas servicesIcon fa-filter'></i>
+                <h5 class="card-title">Excel</h5>
+                <p class="card-text">
+                VLOOKUP, ARIMA, Outliers, Data Cleaning, Basics.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
     <!-- portfolio section-->
     <section class="section bgimage" id="portfolio">
-        <br>
         <br>
         <div class="container mt-3">
             <h1 class="text-center">Portfolio</h1>
@@ -186,10 +171,8 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Data Analyst Intern</h4>
-                            <p class="card-text">Cleaned, analyzed business data, performed time series analysis using the Power
-                                BI tool, Excel, XLWings and MySQL workbench. Created dashboards of financial stocks, invoice data & customer feedback. 
-                                Created automated reports and flows with Power Automate.
+                            <h5 class="card-title">Data Analyst Intern</h5>
+                            <p class="card-text">Power BI, Excel, XLWings and MySQL workbench. Created four dashboards of financial stocks, invoice data & customer feedback. 
                             </p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
@@ -200,51 +183,47 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Early disease detection in Tomato leaves using Deep Learning and IoT</h4>
-                            <p class="card-text">Trained a CNN model to detect four categories of tomato leaf diseases 
-                                and deployed it on a Raspberry Pi as a tflite model for prediction. Enables disease prevention.
-                                Involved image processing, data manipulation, and hands-on machine learning.</p>
+                            <h5 class="card-title">Early Tomato leaf disease detection using Deep Learning and IoT</h5>
+                            <p class="card-text">Deployed tflite CNN model in Raspberry Pi for tomato leaf disease prediction.</p>
                             <div class="text-center">
                                 <a href="https://github.com/Psri-01/ML-IoT" class="btn btn-success">Github</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                </div>
+                <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Text Summarization using AI</h4>
-                            <p class="card-text">Used for speech recognition tasks. Configured the PaLM 2 client using MakerSuite's
-                                API key. Fed an audio sample from a podcast regarding climate change to the model
-                                to transcribe it into text. This can also be used to create subtitles for podcasts, videos
-                                or extract information from audio files.</p>
+                            <h5 class="card-title">Text Summarization using AI</h5>
+                            <p class="card-text">Speech recognition using MakerSuite's
+                                API key.</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>           
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Brain Tumor Detection</h5>
+                            <p class="card-text">Transfer learned model achieved an average Dice score of 0.85 on the validation set.</p>
                             <div class="text-center">
                                 <a href="#" class="btn btn-success">Link</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-4 mt-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Brain Tumor Detection</h4>
-                            <p class="card-text">Used transfer learning to detect brain tumors in MRI images. 
-                            &nbsp; Achieved an average Dice score of 0.85 on the validation set.</p>
-                            <div class="text-center">
-                                <a href="#" class="btn btn-success">Link</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div class="row">
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Packet Sniffer (using Scapy, Python)</h4>
-                            <p class="card-text">A packet sniffer tool was implemented on a Docker image of Alpine Linux
-                                to classify the network traffic based on protocol, size, direction, and date-time.</p>
+                            <h5 class="card-title">Packet Sniffer</h5>
+                            <p class="card-text">Docker image of Alpine Linux
+                                to classify the network traffic.</p>
                             <div class="text-center">
                                 <a href="https://github.com/Psri-01/DockerSniffer" class="btn btn-success">Github</a>
                             </div>
@@ -254,8 +233,8 @@
                 <div class="col-lg-4 mt-4">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Typhoid vaccination form</h4>
-                            <p class="card-text">Created a responsive form with HTML, Bootstrap 5 and basic jQuery.</p>
+                            <h5 class="card-title">Typhoid vaccination form</h5>
+                            <p class="card-text">Responsive form with HTML, Bootstrap 5 and basic jQuery.</p>
                             <div class="text-center">
                                 <a href="" class="btn btn-success">Github</a>
                             </div>
@@ -263,13 +242,14 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>    
     <!-- contact section-->
     <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
     <section class="section bgimage" id="contact">
         <br>
         <br>
-        <h1 class="text-center">Contact Me</h1>
+        <h1 class="text-center">Contact Me</h1><br><br>
         <!-- div class="row mt-4">
             <div class="col-lg-6">
                 !-- to edit google map go to https://www.embed-map.com type your location, generate html code and copy the html
@@ -298,16 +278,16 @@
                     <center>
                     <button type="button" class="btn btn-success mt-3" style="width: fit-content;">Contact Me</button>
                 </center>
-                  </form>
-                  
+                  </form>                  
             </div>       
-    </section>    
+    </section>  
     <!-- footer section-->
-    <footer class="container-fluid footer" id="footer">
+    <footer class="container-fill footer" id="footer">
         <!-- social media icons -->
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/padmasris/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/Psri-01" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61553932927081&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://medium.com/@officialpsri" target="_blank"><img src="image_processing20220801-17461-esr15v.png" class="medium"/></a>
         </div>
     </footer>

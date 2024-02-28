@@ -1,18 +1,18 @@
 /* spacing on all sections */
 * {
     font-family:serif;
-    color: #009dff;
+    color: #ffe7ee;
     justify-content: center;
 }
 .section {
     margin-top: 3rem;
-    margin-left: 4rem;
+    margin-left: 50%;
     margin-right: 4rem;
     padding-top: 4rem;
 }
 @media (max-width: 768px) {
     .section {
-        margin: 2rem;
+        margin: 20rem;
         padding-top: 2rem;
     }
     .hero_title,
@@ -24,30 +24,39 @@
         padding-top: 3rem;
     }
 
-    .col-lg-6 {
-        padding: 10px;
-    }
-
     .image_about {
         width: 100%;
-        margin: 15px;
+        margin: 5px;
     }
 }
+div.row {
+    margin-left: 20px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 10px; 
+}
+@media (max-width: 576px) {
+    div.row {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('map_analytics2.png') no-repeat center fixed;
+    width:auto;
+    background: url('sakura.jpg') no-repeat fixed;
     background-size:cover;
     position:relative;
-    padding: 0;
-    margin: 0;
+    padding: 12px;
+    margin: 0px;
 }
 /* text css above hero image*/
 .hero_title {
     padding-top: 5rem;
     font-size: 4.5rem;
     color: transparent;
-    background-image: linear-gradient(to right, rgb(255, 0, 0),#00eeff);
+    background-image: linear-gradient(to right, rgb(154, 0, 0),#ffe7ee);
     background-clip: text;
     animation: gradient-animation 3s ease-in-out infinite;
 }
@@ -62,7 +71,7 @@
 .hero_desc {
     font-size: 2rem;
     color: transparent;
-    background-image: linear-gradient(to right, rgb(255, 0, 0),#00eeff);
+    background-image: linear-gradient(to right, rgb(154, 0, 0),#ffe7ee);
     background-clip: text;
     animation: gradient-animation 3s ease-in-out infinite;
 }
@@ -73,47 +82,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-@media (max-width: 767px) {
-    /* Styles for small screens */
-}
-
-.col-lg-4 {
-    flex: 0 0 25%;
-    max-width: 25%;
-}
-@media (max-width: 768px) {
-    .col-lg-4 {
-      /* Style for smaller screens */
-      flex: 0 0 50%;
-      max-width: 50%;
-    }
-  }
-@media (max-width: 578px) {
-    .col-lg-4 {
-      flex: 0 0 100%;
-      max-width: 100%;
-    }
-  }
-.col-sm-6 {
-    padding: 0px;
-    margin: 0px;
-}
-.col-sm-12 {
-    margin-right: 20px;
-}
-.col-lg-6 {
-    padding: 25px;
+.form-control-lg {
+  background-color: #2d2d2d;
 }
 .image_about {
+    color: aliceblue;
     width: 20vh;
     max-width: 100%;
     margin: 20px;
+}
+.navbar-brand {
+  color:aqua;
 }
 .navbarDark {
     position:sticky;
 }
 .nav-link:hover {
-    color: #66c4ff;
+    color: #00e3a6;
 }
  .social-icons {
     font-size: 40px;
@@ -126,7 +111,6 @@
     width: 6vh;
     margin-bottom: 9px;
 }
-
 .fa-instagram:hover,
 .fa-linkedin:hover, 
 .fa-facebook:hover,
@@ -136,37 +120,14 @@
 .fab {
     color: #000000;
 }
-.servicesText.card {
-    text-align: center;
-    cursor: pointer;
-    margin: 5px;
-  }
 .servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+    font-size: 15px;
 }
-.card-body {
-    width: 100% !important;
-    height: 50% !important;
+.servicesIcon:hover {
+    color: #00e3a6;
 }
-@media (max-width: 578px) {
-    .card-body {
-      flex: 0 0 50%;
-      max-width: 100%;
-    }
-  }
-.card-title {
-    text-align: center;
-}
-.card:hover .servicesIcon {
-    color: #00e0e3;
-}
-.servicesText:hover {
-    border: 5px solid #008be1;
-    box-shadow:#00eeff;
-    margin: 0px;
-    padding: 0;
+.skill-title:hover {
+    color:#00e3a6;
 }
 @media (max-width: 768px) {
     .contact {
@@ -175,7 +136,7 @@
       max-width: 50%;
     }
   }
-@media (max-width: 578px) {
+@media (max-width: 576px) {
     .contact {
       flex: 0 0 100%;
       max-width: 100%;
@@ -185,14 +146,21 @@
     margin-bottom: 1rem; /* Add some margin between fields */
   } 
 .footer {
-    background-color: #cfcfcf;
+    background-color: #b0b0b0;
     text-align: center;
     margin: 0;
     padding: 0;
 }
-@media (max-width: 578px) {
+@media (max-width: 576px) {
     .footer {
       flex: 0 0 100%;
       max-width: 100%;
     }
   }
+.btn {
+  background-color: #009dff;
+}
+.btn:hover {
+  color: #000000;
+  background-color: #79ffdb;
+}

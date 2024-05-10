@@ -48,7 +48,7 @@ div.row {
     background: url('wp12337702-data-visualization-wallpapers.jpg') no-repeat fixed;
     background-size:cover;
     position:relative;
-    padding: 12px;
+    padding: 0px;
     margin: 0px;
 }
 /* text css above hero image*/
